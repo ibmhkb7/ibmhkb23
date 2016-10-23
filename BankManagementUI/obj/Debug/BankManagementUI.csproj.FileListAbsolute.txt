@@ -1,0 +1,12 @@
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementUI.dll.config
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementUI.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementUI.pdb
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\obj\Debug\BankManagementUI.csprojResolveAssemblyReference.cache
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\obj\Debug\BankManagementUI.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\obj\Debug\BankManagementUI.pdb
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementBLL.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementBO.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementDAL.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementBLL.pdb
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementBO.pdb
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementUI\bin\BankManagementDAL.pdb
