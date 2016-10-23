@@ -1,0 +1,5 @@
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementBO\obj\Debug\BankManagementBO.csprojResolveAssemblyReference.cache
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementBO\bin\Debug\BankManagementBO.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementBO\bin\Debug\BankManagementBO.pdb
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementBO\obj\Debug\BankManagementBO.dll
+E:\TeamProject\AHD16_AMS89_Grp7\BankManagement\BankManagementBO\obj\Debug\BankManagementBO.pdb
