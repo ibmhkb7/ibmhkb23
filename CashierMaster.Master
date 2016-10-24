@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CashierMaster.master.cs" Inherits="BankManagementUI.Cashier.CashierMaster" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Executive Home</title>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This project for online complaint box" />
+    <meta name="author" content="hanumanth.k.budihal" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/0375a2d66e.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    
+    <link href="../Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../Content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="../Content/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="../Content/css/creative.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+            background-color: #E5E7E9   ;
+        }
+        .navbar {
+            font-family: Montserrat, sans-serif;
+            margin-bottom: 0;
+            background-color: #2d2d30;
+            border: 0;
+            font-size: 11px !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+        }
+
+            .navbar li a, .navbar .navbar-brand {
+                color: #d5d5d5 !important;
+            }
+
+        .navbar-nav li a:hover {
+            color: #fff !important;
+        }
+
+        .navbar-nav li.active a {
+            color: #fff !important;
+            background-color: #29292c !important;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
+         .open .dropdown-toggle {
+            color: #fff;
+            background-color: #555 !important;
+        }
+
+        .dropdown-menu li a {
+            color: #000 !important;
+        }
+
+            .dropdown-menu li a:hover {
+                background-color: red !important;
+            }
+             
+        footer {
+            background-color: #2d2d30;
+            color: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+            margin-bottom:20px;
+            margin-top:30px;
+        }
+
+    </style>
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="fa-anchor"></span>
+                </button>
+              
+              <a class="navbar-brand" href="#"> National Bank of Gujarat</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown">
+                        <div class="dropdown" id="Div2" runat="server">
+                            <button class="btn btn-primary " type="button" style="margin-top: 5px;margin-right: 5px">
+                                
+                             <li/ class="btn-block"><a href="/homepage.aspx">Home</a></li/>
+                              
+                            </button>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+
+                        <div class="dropdown" id="Exe1" runat="server" style="margin-bottom:3px">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="margin-top:5px; margin-right: 5px">
+                               Transaction Management
+                              <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                  <li><a href="/Cashier/Transaction.aspx">Transaction </a></li>
+                                 <li><a href="/Cashier/SearchAccount.aspx">Search Account </a></li>
+                                <li><a href="/Cashier/Print.aspx">Print Statements</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                     <li class="nav-item dropdown">
+                        <div class="dropdown" id="Div1" runat="server">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="margin-top: 5px">
+                                
+                              <span class="fa fa-sign-out" aria-hidden="true"></span>
+                              
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="btn-block"><a href="/Logout.aspx">Logout</a></li>
+                                
+
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <footer class="footer">
+        All Rights Are Reserved .Terms and conditions apply *
+    </footer>
+
+</body>
+</html>
+    
